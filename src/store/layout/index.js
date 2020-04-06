@@ -25,16 +25,3 @@ export const Creators = {
   showMessage: () => ({ type: Types.SHOW_MESSAGE }),
   hideMessage: () => ({ type: Types.HIDE_MESSAGE }),
 };
-
-// //actions
-// export const showMessage = () => {
-//   return {
-//     type: "SHOW_MESSAGE",
-//   };
-// };
-
-// export const hideMessage = () => {
-//   return {
-//     type: "HIDE_MESSAGE",
-//   };
-// };
