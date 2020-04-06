@@ -1,11 +1,12 @@
 import React from "react";
 import Pages from "./pages";
+import Message from "./components/Message";
 import Layout from "./layout";
-import "./App.css";
 
 function App() {
   return (
     <Layout>
+      <Message />
       <Pages />
     </Layout>
   );
